@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "lufga";
+  background: linear-gradient(
+    128.35deg,
+    rgba(90, 244, 254, 0.88) 1.24%,
+    rgba(50, 230, 241, 0.18) 97.01%
+  );
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 80%;
+  margin: auto;
+  margin-top: 25px;
+  align-items: center;
+  z-index: 100;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul li {
+  list-style: none;
+  margin-left: 25px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #0457a4;
+}
+.active {
+  color: #0457a4;
+}
+section {
+  max-width: 80%;
+  margin: auto;
+  /* height: 100vh; */
+}
+a {
+  text-decoration: none;
+}
+ul li:hover {
+  color: #b560ff;
+  transition: 0.3s ease-in-out;
+}
+/* responsive part ye */
+@media screen and (max-width: 960px) {
+  .first-page {
+    flex-direction: column;
+    max-width: 100%;
+  }
+  .flex h1 {
+    font-size: 2rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  .image img {
+    max-width: 80vw;
+    margin: auto;
+  }
+  .what {
+    flex-direction: column;
+    max-width: 100%;
+  }
+  .personas {
+    flex-direction: column;
+  }
+  .box {
+    max-width: 80vw;
+    margin: auto;
+  }
+  .imj img {
+    max-width: 80vw;
+    margin: auto;
+  }
+  .imag img {
+    max-width: 10vw;
+    margin-bottom: 50px;
+  }
+  .flowing img {
+    max-width: 85vw;
+    margin: auto;
+  }
+  section {
+    max-width: 100%;
+  }
+  .blog {
+    flex-direction: column;
+  }
+  .first {
+    max-width: 80vw;
+    margin: auto;
+  }
+  .first img {
+    max-width: 80vw;
+    margin: auto;
+  }
+  .here {
+    flex-direction: column;
+  }
+  .cbox {
+    max-width: 80vw;
+    margin: auto;
+  }
+  .photo img {
+    max-width: 80vw;
+    margin: auto;
+  }
+  nav {
+    max-width: 80vw;
+    margin: auto;
+    margin-top: 30px;
+    max-width: 100%;
+  }
+  .contact h1 {
+    font-size: 1rem;
+  }
+  .flex p {
+    max-width: 80vw;
+    margin: auto;
+  }
+  .text p {
+    max-width: 80vw;
+    margin: auto;
+  }
+}

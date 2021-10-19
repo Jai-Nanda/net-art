@@ -1,0 +1,251 @@
+.first-page {
+  max-width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.flex h1 {
+  font-size: 3.5rem;
+  margin-top: 50px;
+  background-image: linear-gradient(180deg, #b560ff 0%, #1370db 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 400px;
+}
+.flex p {
+  color: #0085ff;
+  width: 400px;
+}
+.goals h1 {
+  background-image: linear-gradient(180deg, #b560ff 0%, #1370db 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
+  margin-top: 80px;
+}
+.what {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.text h2 {
+  font-size: 2.5rem;
+  margin-top: 40px;
+  color: #0457a4;
+}
+.text p {
+  color: #0085ff;
+  margin-top: 30px;
+  font-size: 1.2rem;
+}
+.user h1 {
+  background-image: linear-gradient(180deg, #b560ff 0%, #1370db 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
+  margin-top: 30px;
+}
+.user p {
+  color: #1370db;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+.personas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+.info p {
+  max-width: 800px;
+}
+.sponsers h1 {
+  background-image: linear-gradient(180deg, #b560ff 0%, #1370db 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
+  margin-top: 50px;
+}
+.contact h1 {
+  background-image: linear-gradient(180deg, #b560ff 0%, #1370db 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
+  margin-top: 50px;
+}
+.poggers h1 {
+  background-image: linear-gradient(180deg, #b560ff 0%, #1370db 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
+  margin-top: 50px;
+}
+.flow h1 {
+  background-image: linear-gradient(180deg, #b560ff 0%, #1370db 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
+}
+.spos {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+.imag img {
+  width: 100px;
+}
+.flowing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.blog {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.first img {
+  width: 450px;
+}
+.first {
+  margin-bottom: 40px;
+}
+.first p {
+  font-size: 2rem;
+  margin-top: 10px;
+  font-weight: 900;
+  color: #0457a4;
+}
+.first a {
+  color: #1370db;
+  font-size: 1.2rem;
+}
+button {
+  border: none;
+  outline: none;
+  background-color: #1370db;
+  color: white;
+  width: 150px;
+  height: 40px;
+  font-family: "lufga";
+  font-size: 1.2rem;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.personas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box {
+  width: 400px;
+  height: 700px;
+  background-color: #0457a4;
+}
+.imj img {
+  width: 400px;
+  height: 400px;
+}
+.seventeen h1 {
+  background-image: linear-gradient(180deg, #b560ff 0%, #1370db 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
+  margin-top: 50px;
+}
+.texting h3 {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 20px;
+}
+.texting h2 {
+  font-size: 1.3rem;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+}
+.texting p {
+  text-align: center;
+  width: 350px;
+  margin: auto;
+  color: white;
+  font-weight: 200;
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+.here {
+  display: flex;
+  justify-content: space-between;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+form label {
+  color: #0457a4;
+  font-size: 1.4rem;
+}
+form input,
+textarea {
+  border: none;
+  outline: none;
+  width: 300px;
+  height: 38px;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #1370db 0%, #b560ff 94.49%);
+  color: white;
+  padding-left: 10px;
+  font-size: 1.2rem;
+  font-family: "lufga";
+}
+form textarea {
+  height: 150px;
+  padding-top: 10px;
+}
+.flex a {
+  margin-left: 20px;
+  color: #0457a4;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.slide {
+  width: 100vw;
+  height: 100vh;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 400vw;
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+}
+.one {
+  background: red;
+}
+.two {
+  background: blue;
+}
+.three {
+  background: green;
+}
+.four {
+  background: black;
+}
+.outer-wrapper {
+  width: 100vh;
+  height: 100vw;
+  transform: rotate(-90deg) translateX(-100vh);
+  transform-origin: top left;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
